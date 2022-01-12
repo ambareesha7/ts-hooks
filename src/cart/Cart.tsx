@@ -1,11 +1,7 @@
-// import cartItems
 import CartItem from "../cart_item/CartItem";
-// styles
-import { Wrapper } from "../App.styles";
-// types
+import { Wrapper } from "./Cart.styles";
 import { CartItemType } from "../App";
 
-// define types
 type Props = {
   cartItems: CartItemType[];
   addToCart: (clickedItem: CartItemType) => void;
